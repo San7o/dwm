@@ -19,3 +19,8 @@ I have made a few improvements from the base window manager, namely:
 I use xterm as my terminal emulator, dmenu as an application launcher
 and sh shell.
 I will keep this repository updated with the new changes.
+
+Compile and instal everything:
+```bash
+sudo make clean install
+```
