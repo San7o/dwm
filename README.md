@@ -14,6 +14,7 @@ I have made a few improvements from the base window manager, namely:
 - added fibonacci layouts
 - autostart, adding the possibility to run a [shell](autostart.sh)
   script right after launching
+- fullscreen mode
 - various shortcuts for movement, audio and brightness
 
 I use xterm as my terminal emulator, dmenu as an application launcher
