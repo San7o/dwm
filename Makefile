@@ -33,6 +33,7 @@ dist: clean
 script:
 	mkdir -p /home/santo/.dwm
 	cp autostart.sh /home/santo/.dwm/
+	cp screenshot.sh /home/santo/.dwm/
 
 wallpapers:
 	mkdir -p /home/santo/.dwm

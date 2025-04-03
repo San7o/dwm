@@ -14,6 +14,7 @@ I have made a few improvements from the base window manager, namely:
 - added fibonacci layouts
 - autostart, adding the possibility to run a [shell](autostart.sh)
   script right after launching
+- screenshot button
 - fullscreen mode
 - various shortcuts for movement, audio and brightness
 
@@ -25,3 +26,5 @@ Compile and instal everything:
 ```bash
 sudo make clean install
 ```
+
+dwm depends only on Xlib
