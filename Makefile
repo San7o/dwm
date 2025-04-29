@@ -57,6 +57,7 @@ desktop:
 	cp dwm.desktop /usr/share/xsessions/
 
 dotfiles:
-	cp -R dotfiles /home/santo/
+	cp dotfiles/.Xresources /home/santo/
+	xrdb /home/santo/.Xresources
 
 .PHONY: all clean dist script wallpapers install uninstall desktop dotfiles
