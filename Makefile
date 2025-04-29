@@ -32,6 +32,8 @@ dist: clean
 
 script:
 	mkdir -p /home/santo/.dwm
+	chmod +x autostart.sh
+	chmod +x screenshot.sh
 	cp autostart.sh /home/santo/.dwm/
 	cp screenshot.sh /home/santo/.dwm/
 
@@ -50,5 +52,8 @@ install: all script wallpapers
 uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwm\
 		${DESTDIR}${MANPREFIX}/man1/dwm.1
+
+desktop:
+	cp dwm.desktop /usr/share/xsessions/
 
 .PHONY: all clean dist script wallpapers install uninstall
