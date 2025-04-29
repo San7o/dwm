@@ -1,0 +1,20 @@
+! background color
+XTerm*background: #282c34
+
+! text color
+XTerm*foreground: white
+
+! font size
+xterm*faceName: Monospace
+xterm*faceSize: 14
+
+! setup clipboard
+Xterm*selectToClipboard: true
+XTerm*vt100.translations: #override \
+	Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+	Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+
+! remove scrollbar
+XTerm*scrollBar:            false
+
+! xrdb $HOME/.Xresources
