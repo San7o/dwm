@@ -76,3 +76,10 @@ uninstall:
 .SUFFIXES: .c .o
 .c.o:
 	$(CC) $(CPPFLAGS) $(DWLCFLAGS) -o $@ -c $<
+
+desktop:
+	cp dwl.desktop /usr/share/wayland-sessions/
+
+dotfiles:
+	mkdir -p ~/.config/foot/
+	cp dotfiles/.config/foot/foot.ini ~/.config/foot/
